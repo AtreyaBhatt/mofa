@@ -198,6 +198,10 @@ async fn main() -> eyre::Result<()> {
 }
 ```
 
+## Orchestrator (experimental)
+
+The `mofa-orchestrator` crate provides task analysis, coordination patterns, HITL governance, and registry/marketplace features. It also supports semantic search (keywords + embeddings, optional BM25 under the `bm25` feature). See `crates/mofa-orchestrator/README.md` for a quickstart and an embedder/SearchConfig wiring example.
+
 ## Cross-Language Bindings
 
 For Python, Kotlin, Swift, Java, and Go bindings, use the **[mofa-ffi](../mofa-ffi)** crate:
